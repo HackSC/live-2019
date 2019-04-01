@@ -1,20 +1,63 @@
 import '../styles/stylesheet.scss'
+import logo from '../assets/logo.svg'
+import tempLeftCol from '../assets/temp/poc_left_column.png'
+import tempSchedule from '../assets/temp/poc_schedule.png'
 
 import Link from 'next/link'
 
 const Index = () => (
   <div>
-    <section className="hero is-primary is-fullheight">
-      <div className="hero-body">
-        <div className="container">
-          <h1 className="title">Hello HackSC</h1>
+    <nav className="navbar">
+      <div className="container">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="https://live.hacksc.com">
+            <img src={logo} width="112"/>
+          </a>
+        </div>
 
-          <Link href='/api'><button className='button is-white'>API Directory</button></Link><br/>
-          <Link href='/map'><button className='button is-white'>Map</button></Link><br/>
-          <Link href='/faq'><button className='button is-white'>FAQ</button></Link>
+        <div className="navbar-menu">
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <a className="is-primary">
+                <strong>Live</strong>
+              </a>
+            </div>
+
+            <div className="navbar-item">
+              <a>
+                API Directory
+              </a>
+            </div>
+
+            <div className="navbar-item">
+              <a>
+                Resources
+              </a>
+            </div>
+
+            <div className="navbar-item">
+              <a>
+                FAQ
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </nav>
+
+    <div className="container">
+      <div className="columns">
+        <div className="column is-one-third">
+          <img src={tempLeftCol} style={{'max-width': '100%'}} />
+        </div>
+
+        <div className="column">
+          <div className="schedule">
+            <img src={tempSchedule} style={{'max-width': '100%'}} />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 )
 
