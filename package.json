@@ -13,8 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "bulma": "^0.7.4",
+    "circular-std": "^1.0.0",
     "next": "^8.0.3",
     "next-images": "^1.1.1",
     "node-sass": "^4.11.0",
