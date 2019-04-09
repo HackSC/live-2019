@@ -17,9 +17,11 @@
     "@zeit/next-sass": "^1.0.1",
     "bulma": "^0.7.4",
     "circular-std": "^1.0.0",
+    "moment": "^2.24.0",
     "next": "^8.0.3",
     "next-images": "^1.1.1",
     "node-sass": "^4.11.0",
+    "papaparse": "^4.6.3",
     "react": "^16.8.6",
     "react-countdown-now": "^2.1.0",
     "react-dom": "^16.8.6"

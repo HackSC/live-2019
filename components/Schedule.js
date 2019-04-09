@@ -1,5 +1,8 @@
 import { Component } from 'react'
 
+import Papa from 'papaparse'
+import moment from 'moment'
+
 import ScheduleEvent from './ScheduleEvent'
 
 /*
@@ -11,64 +14,7 @@ class Schedule extends Component {
     super(props);
 
     this.state = {
-      schedule: {
-        friday: [
-          {
-            time: "Fri 4:00PM",
-            title: "Check-in Begins",
-            label: "general"
-          },
-          {
-            time: "Fri 7:00PM",
-            title: "Dinner",
-            label: "food"
-          },
-          {
-            time: "Fri 8:00PM",
-            title: "Opening Ceremony",
-            label: "general"
-          },
-          {
-            time: "Fri 9:00PM",
-            title: "API Rush",
-            label: "general"
-          },
-          {
-            time: "Fri 11:00PM",
-            title: "Willie's Tinder Workshop",
-            label: "workshop"
-          }
-        ],
-        saturday: [
-          {
-            time: "Sat 9:00AM",
-            title: "Breakfast",
-            label: "food"
-          },
-          {
-            time: "Sat 11:00AM",
-            title: "Recreation of Avengers Infinity War",
-            label: "fun"
-          },
-          {
-            time: "Sat 12:00PM",
-            title: "Lunch",
-            label: "food"
-          }
-        ],
-        sunday: [
-          {
-            time: "Sun 9:00AM",
-            title: "Brunch",
-            label: "food"
-          },
-          {
-            time: "Sun 11:00AM",
-            title: "Mourning the Dusted",
-            label: "fun"
-          }
-        ]
-      },
+      schedule: [],
       filter: {
         day: '',
         event: ''
@@ -76,50 +22,88 @@ class Schedule extends Component {
     }
   }
 
-  render() {
-    const filteredFridayEvents = this.state.schedule.friday.filter((event) => {
-      if (this.state.filter.event === '') return true
+  componentDidMount() {
+    // Allow us to setState inside the Papa function
+    const scheduleComponent = this;
 
-      return this.state.filter.event === event.label
+    // Parse the schedule CSV and make sense of it :)
+    Papa.parse("/static/schedule.csv", {
+    	download: true,
+    	complete: function(results) {
+        const schedule = []
+
+        results.data.splice(1).forEach((result) => {
+          if (result.length !== 5) {
+            // We need at least 5 fields to process rows of data
+            return;
+          }
+
+          const eventDate = moment(result[0], 'MMMM D, h:mm A').toDate()
+          schedule.push({
+            time: new moment(eventDate).format('ddd, h:mm A').toString(),
+            title: result[2],
+            label: result[4].toLowerCase()
+          })
+        })
+
+        scheduleComponent.setState({
+          schedule
+        })
+    	}
+    })
+  }
+
+  // Generate schedule
+  generateSchedule = () => {
+    // TODO: Clean this up, make it more maintainable
+    const filter = this.state.filter
+    const schedule = this.state.schedule
+
+    const scheduleByDay = {
+      friday: [],
+      saturday: [],
+      sunday: []
+    }
+
+    schedule.forEach((event) => {
+      if (filter.event !== '' && filter.event !== event.label) {
+        return;
+      }
+
+      const eventDay = event.time.slice(0, 3)
+      if (eventDay === 'Fri') scheduleByDay.friday.push(event)
+      if (eventDay === 'Sat') scheduleByDay.saturday.push(event)
+      if (eventDay === 'Sun') scheduleByDay.sunday.push(event)
     })
 
-    const filteredSaturdayEvents = this.state.schedule.saturday.filter((event) => {
-      if (this.state.filter.event === '') return true
-
-      return this.state.filter.event === event.label
-    })
-
-    const filteredSundayEvents = this.state.schedule.sunday.filter((event) => {
-      if (this.state.filter.event === '') return true
-
-      return this.state.filter.event === event.label
-    })
-
-    const fridayEvents = filteredFridayEvents.map((event, index) => (
+    const fridayEvents = scheduleByDay.friday.map((event, index) => (
       <ScheduleEvent
         time={event.time}
         title={event.title}
         label={event.label}
+        key={event.time + ' - ' + index}
       />
     ))
 
-    const saturdayEvents = filteredSaturdayEvents.map((event, index) => (
+    const saturdayEvents = scheduleByDay.saturday.map((event, index) => (
       <ScheduleEvent
         time={event.time}
         title={event.title}
         label={event.label}
+        key={event.time + ' - ' + index}
       />
     ))
 
-    const sundayEvents = filteredSundayEvents.map((event, index) => (
+    const sundayEvents = scheduleByDay.sunday.map((event, index) => (
       <ScheduleEvent
         time={event.time}
         title={event.title}
         label={event.label}
+        key={event.time + ' - ' + index}
       />
     ))
 
-    const friday = ((this.state.filter.day === '' || this.state.filter.day === 'friday') && filteredFridayEvents.length > 0) ? (
+    const friday = ((this.state.filter.day === '' || this.state.filter.day === 'friday') && fridayEvents.length > 0) ? (
       <div className="schedule-day">
         <h3>Friday</h3>
 
@@ -127,7 +111,7 @@ class Schedule extends Component {
       </div>
     ) : (undefined)
 
-    const saturday = ((this.state.filter.day === '' || this.state.filter.day === 'saturday') && filteredSaturdayEvents.length > 0) ? (
+    const saturday = ((this.state.filter.day === '' || this.state.filter.day === 'saturday') && saturdayEvents.length > 0) ? (
       <div className="schedule-day">
         <h3>Saturday</h3>
 
@@ -135,13 +119,25 @@ class Schedule extends Component {
       </div>
     ) : (undefined)
 
-    const sunday = ((this.state.filter.day === '' || this.state.filter.day === 'sunday') && filteredSundayEvents.length > 0) ? (
+    const sunday = ((this.state.filter.day === '' || this.state.filter.day === 'sunday') && sundayEvents.length > 0) ? (
       <div className="schedule-day">
         <h3>Sunday</h3>
 
         {sundayEvents}
       </div>
     ) : (undefined)
+
+    return (
+      <div>
+        {friday}
+        {saturday}
+        {sunday}
+      </div>
+    )
+  }
+
+  render() {
+    const schedule = this.generateSchedule()
 
     return (
       <div className="schedule">
@@ -296,9 +292,7 @@ class Schedule extends Component {
           </div>
         </div>
 
-        {friday}
-        {saturday}
-        {sunday}
+        {schedule}
       </div>
     )
   }

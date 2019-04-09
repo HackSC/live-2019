@@ -1,11 +1,11 @@
 @import './links';
 @import './announcements';
 @import './schedule';
+@import './utility'; 
 
 .navbar a {
   text-transform: uppercase;
-  color: #000000;
-  font-size: 1.125rem; 
+  font-size: 1.125rem;
 
   &.is-active {
     color: $primary;
