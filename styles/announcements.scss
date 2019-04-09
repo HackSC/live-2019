@@ -1,0 +1,48 @@
+.announcements-container {
+  position: relative;
+
+  .announcements {
+    max-height: 20rem;
+    overflow-y: scroll;
+    padding-bottom: 2rem;
+
+    .announcement {
+      border: 1px solid #CFCFCF;
+      border-radius: 4px;
+      padding: 1rem 1rem;
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+
+      h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $black;
+      }
+
+      .announcement-time {
+        width: 100%;
+        display: block;
+        margin-top: 0.5rem;
+        text-align: right;
+        color: #9B9B9B;
+      }
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+
+  // Fade to white
+  .announcements-fade-to-white {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255, 1) 90%);
+    width: 100%;
+    height: 4em;
+  }
+}

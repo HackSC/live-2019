@@ -1,0 +1,73 @@
+.countdown {
+  background-color: $primary;
+  color: $white;
+  border-radius: 8px;
+  margin: 0 0 2rem;
+  padding: 1.25rem 2rem;
+  font-size: 1.125rem;
+
+  span {
+    text-transform: uppercase;
+  }
+
+  .countdown-counter {
+    text-align: right;
+
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+  }
+}
+
+.schedule {
+  h3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: $primary;
+    text-transform: uppercase;
+    margin: 0 0.5rem 1rem;
+  }
+
+  .schedule-day {
+    margin-top: 1.5rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .schedule-event {
+    border: 1px solid #555555;
+    border-radius: 4px;
+    margin: 0;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    .schedule-event-time {
+      text-transform: uppercase;
+    }
+
+    .schedule-event-label {
+      border-radius: 4px;
+      background-color: $dark;
+      color: $white;
+      padding: 0.5rem 1rem;
+
+      &.schedule-event-label-food {
+        background-color: #462470;
+      }
+
+      &.schedule-event-label-general {
+        background-color: #E6194B;
+      }
+
+      &.schedule-event-label-fun {
+        background-color: #0078FF;
+      }
+    }
+  }
+}
