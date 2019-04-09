@@ -124,5 +124,29 @@
         background-color: #0078FF;
       }
     }
+
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 1rem;
+
+      .schedule-event-time {
+        flex-basis: 40%;
+        text-align: center;
+        order: 2;
+      }
+
+      .schedule-event-title {
+        flex-basis: 100%;
+        text-align: left;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+
+      .schedule-event-label {
+        flex-basis: 40%;
+        text-align: center;
+      }
+    }
   }
 }

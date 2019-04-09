@@ -40,7 +40,7 @@ class Schedule extends Component {
 
           const eventDate = moment(result[0], 'MMMM D, h:mm A').toDate()
           schedule.push({
-            time: new moment(eventDate).format('ddd, h:mm A').toString(),
+            time: new moment(eventDate).format('ddd h:mm A').toString(),
             title: result[2],
             label: result[4].toLowerCase()
           })
@@ -66,7 +66,7 @@ class Schedule extends Component {
     }
 
     schedule.forEach((event) => {
-      if (filter.event !== '' && filter.event !== event.label) {
+      if (filter.event !== '' && filter.event !== event.label.trim()) {
         return;
       }
 
