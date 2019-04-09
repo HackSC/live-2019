@@ -4,7 +4,7 @@
   border-radius: 8px;
   margin: 0 0 2rem;
   padding: 1.25rem 2rem;
-  font-size: 1.125rem;
+  font-size: 1rem;
 
   span {
     text-transform: uppercase;
@@ -12,6 +12,10 @@
 
   .countdown-counter {
     text-align: right;
+
+    .time {
+      font-size: 2rem;
+    }
 
     @media screen and (max-width: 768px) {
       text-align: center;
@@ -43,6 +47,15 @@
     margin-top: 0.5rem;
     padding: 0.5rem 0;
 
+    &.schedule-event-faded {
+      opacity: 0.5;
+    }
+
+    &.schedule-event-now {
+      border-color: #EF5144;
+      border-left-width: 10px;
+    }
+
     &:first-child {
       margin-top: 0;
     }
@@ -56,6 +69,7 @@
       background-color: $dark;
       color: $white;
       padding: 0.5rem 1rem;
+      text-align: center;
 
       &.schedule-event-label-food {
         background-color: #462470;

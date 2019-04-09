@@ -6,7 +6,7 @@ const Countdown = (props) => (
       </div>
 
       <div className="column countdown-counter">
-        <span>Countdown: <b>08:31:02</b></span>
+        <span>Countdown: <b className="time">08:31:02</b></span>
       </div>
     </div>
   </div>

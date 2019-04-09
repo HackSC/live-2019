@@ -1,17 +1,29 @@
-const ScheduleEvent = (props) => (
-  <div className="schedule-event schedule-event-faded columns">
-    <div className="column is-2">
-      <span className="schedule-event-time">Sat 5:00 PM</span>
-    </div>
+const ScheduleEvent = (props) => {
+  let scheduleEventClass = "schedule-event columns is-vcentered"
 
-    <div className="column">
-      <span>Hackathon Check-in</span>
-    </div>
+  if (props.past) {
+    scheduleEventClass += " schedule-event-faded";
+  }
 
-    <div className="column is-2">
-      <span className="schedule-event-label schedule-event-label-general">General</span>
+  if (props.now) {
+    scheduleEventClass += " schedule-event-now";
+  }
+
+  return (
+    <div className={scheduleEventClass}>
+      <div className="column is-3">
+        <span className="schedule-event-time">Sat 5:00 PM</span>
+      </div>
+
+      <div className="column is-mobile-4">
+        <span>Hackathon Check-in</span>
+      </div>
+
+      <div className="column is-2">
+        <div className="schedule-event-label schedule-event-label-general">General</div>
+      </div>
     </div>
-  </div>
-)
+  )
+}
 
 export default ScheduleEvent

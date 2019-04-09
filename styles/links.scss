@@ -8,10 +8,14 @@
 
   .link-item-container {
     border: 1px solid #CFCFCF !important;
+    background: $white;
+    z-index: 999;
     border-radius: 4px;
     padding: 1rem 1rem;
     align-items: center;
     color: #5F5F5F;
+    transition: 0.15s all;
+    -webkit-transition: 0.15s all;
 
     .link-item-title {
       text-transform: uppercase;
@@ -21,6 +25,14 @@
 
     .link-item-img {
       height: 100%;
+    }
+
+
+  }
+
+  &:hover {
+    .link-item-container {
+      transform: scale(1.025);
     }
   }
 }
