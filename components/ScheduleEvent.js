@@ -9,18 +9,21 @@ const ScheduleEvent = (props) => {
     scheduleEventClass += " schedule-event-now";
   }
 
+  const labelClass = `schedule-event-label schedule-event-label-${props.label}`
+  const label = props.label.charAt(0).toUpperCase() + props.label.slice(1)
+
   return (
     <div className={scheduleEventClass}>
-      <div className="column is-3">
-        <span className="schedule-event-time">Sat 5:00 PM</span>
+      <div className="schedule-event-time">
+        {props.time}
       </div>
 
-      <div className="column is-mobile-4">
-        <span>Hackathon Check-in</span>
+      <div className="schedule-event-title">
+        {props.title}
       </div>
 
-      <div className="column is-2">
-        <div className="schedule-event-label schedule-event-label-general">General</div>
+      <div className={labelClass}>
+        {label}
       </div>
     </div>
   )

@@ -80,6 +80,8 @@
     margin: 0;
     margin-top: 0.5rem;
     padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
 
     &.schedule-event-faded {
       opacity: 0.5;
@@ -87,7 +89,6 @@
 
     &.schedule-event-now {
       border-color: #EF5144;
-      border-left-width: 10px;
     }
 
     &:first-child {
@@ -96,6 +97,11 @@
 
     .schedule-event-time {
       text-transform: uppercase;
+      flex-basis: 20%;
+    }
+
+    .schedule-event-title {
+      flex-basis: 40%;
     }
 
     .schedule-event-label {
@@ -104,6 +110,7 @@
       color: $white;
       padding: 0.5rem 1rem;
       text-align: center;
+      flex-basis: 20%;
 
       &.schedule-event-label-food {
         background-color: #462470;

@@ -1,15 +1,21 @@
-const Countdown = (props) => (
-  <div className="countdown">
-    <div className="columns is-vcentered">
-      <div className="column is-hidden-mobile">
-        <span>Happening Now: <b>Opening Ceremony</b></span>
-      </div>
+import Countdown from 'react-countdown-now';
 
-      <div className="column countdown-counter">
-        <span>Countdown: <b className="time">08:31:02</b></span>
+const CountdownDisplay = (props) => {
+  const startDate = new Date("04/12/2019 5:00 PM")
+
+  return (
+    <div className="countdown">
+      <div className="columns is-vcentered">
+        <div className="column is-hidden-mobile">
+          <span>Happening Now: <b>Grind SZN</b></span>
+        </div>
+
+        <div className="column countdown-counter">
+          <span>Countdown: <b className="time"><Countdown date={startDate} /></b></span>
+        </div>
       </div>
     </div>
-  </div>
-)
+  )
+}
 
-export default Countdown
+export default CountdownDisplay
