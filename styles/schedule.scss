@@ -40,6 +40,40 @@
     }
   }
 
+  .schedule-filter {
+    h4 {
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .filter-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .filter-button {
+      flex-basis: 48%;
+      margin-bottom: 2%;
+      background-color: #EEEEEE;
+      color: $black;
+      text-transform: uppercase;
+      transition: 0.25s all;
+      -webkit-transition: 0.25s all;
+      border: 1px solid #EEEEEE;
+
+      &.active {
+        background-color: $primary;
+        color: $white;
+      }
+
+      &:hover {
+        border: 1px solid $primary;
+      }
+    }
+  }
+
   .schedule-event {
     border: 1px solid #555555;
     border-radius: 4px;
