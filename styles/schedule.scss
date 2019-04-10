@@ -82,6 +82,7 @@
     padding: 0.5rem 0;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
     &.schedule-event-faded {
       opacity: 0.5;
@@ -102,6 +103,13 @@
 
     .schedule-event-title {
       flex-basis: 40%;
+    }
+
+    .schedule-event-description {
+      flex-basis: 100%;
+      padding: 0 1rem 0.5rem;
+
+      hr { margin: 1rem 0 1rem }
     }
 
     .schedule-event-label {

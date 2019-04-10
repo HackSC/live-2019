@@ -12,7 +12,7 @@ const ApiDirectory = () => (
 
     <div className="container">
       <section className="section">
-        API Directory goes here.
+        <h3 className="coming-soon">API Directory coming soon!</h3>
       </section>
     </div>
   </>

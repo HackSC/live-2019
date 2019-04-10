@@ -12,7 +12,7 @@ const Map = () => (
 
     <div className="container">
       <section className="section">
-        Map goes here.
+        <h3 className="coming-soon">Map coming soon!</h3>
       </section>
     </div>
   </>

@@ -12,7 +12,7 @@ const Prizes = () => (
 
     <div className="container">
       <section className="section">
-        Prizes & Judges goes here.
+        <h3 className="coming-soon">Prizes & Judges coming soon!</h3>
       </section>
     </div>
   </>

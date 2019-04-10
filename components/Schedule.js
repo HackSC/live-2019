@@ -32,17 +32,22 @@ class Schedule extends Component {
     	complete: function(results) {
         const schedule = []
 
-        results.data.splice(1).forEach((result) => {
+        results.data.splice(1).forEach((result, index) => {
           if (result.length !== 5) {
             // We need at least 5 fields to process rows of data
             return;
           }
 
+          console.log(result[3])
+
           const eventDate = moment(result[0], 'MMMM D, h:mm A').toDate()
           schedule.push({
             time: new moment(eventDate).format('ddd h:mm A').toString(),
             title: result[2],
-            label: result[4].toLowerCase()
+            label: result[4].toLowerCase(),
+            description: (result[3] !== '') ? (result[3]) : (undefined),
+            showDetails: false,
+            index: index + 1 // Add 1 because of the splice
           })
         })
 
@@ -52,6 +57,27 @@ class Schedule extends Component {
     	}
     })
   }
+
+  generateScheduleEvent = (event, index) => (
+    <ScheduleEvent
+      time={event.time}
+      title={event.title}
+      label={event.label}
+      description={event.description}
+      key={event.time + ' - ' + index}
+      showDetails={event.showDetails}
+      onClick={() => {
+        console.log("on click")
+
+        const schedule = this.state.schedule
+        schedule[index].showDetails = !schedule[index].showDetails
+
+        console.log(schedule[index])
+
+        this.setState({schedule})
+      }}
+    />
+  )
 
   // Generate schedule
   generateSchedule = () => {
@@ -76,32 +102,9 @@ class Schedule extends Component {
       if (eventDay === 'Sun') scheduleByDay.sunday.push(event)
     })
 
-    const fridayEvents = scheduleByDay.friday.map((event, index) => (
-      <ScheduleEvent
-        time={event.time}
-        title={event.title}
-        label={event.label}
-        key={event.time + ' - ' + index}
-      />
-    ))
-
-    const saturdayEvents = scheduleByDay.saturday.map((event, index) => (
-      <ScheduleEvent
-        time={event.time}
-        title={event.title}
-        label={event.label}
-        key={event.time + ' - ' + index}
-      />
-    ))
-
-    const sundayEvents = scheduleByDay.sunday.map((event, index) => (
-      <ScheduleEvent
-        time={event.time}
-        title={event.title}
-        label={event.label}
-        key={event.time + ' - ' + index}
-      />
-    ))
+    const fridayEvents = scheduleByDay.friday.map(this.generateScheduleEvent)
+    const saturdayEvents = scheduleByDay.saturday.map(this.generateScheduleEvent)
+    const sundayEvents = scheduleByDay.sunday.map(this.generateScheduleEvent)
 
     const friday = ((this.state.filter.day === '' || this.state.filter.day === 'friday') && fridayEvents.length > 0) ? (
       <div className="schedule-day">

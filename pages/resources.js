@@ -12,7 +12,7 @@ const Resources = () => (
 
     <div className="container">
       <section className="section">
-        Resources goes here.
+        <h3 className="coming-soon">Resources coming soon!</h3>
       </section>
     </div>
   </>
