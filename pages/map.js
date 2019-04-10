@@ -3,6 +3,7 @@ import '../styles/stylesheet.scss'
 import Head from '../components/Head'
 
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 const Map = () => (
   <>
@@ -11,10 +12,14 @@ const Map = () => (
     <NavBar page="map" />
 
     <div className="container">
-      <section className="section">
-        <h3 className="coming-soon">Map coming soon!</h3>
+      <section className="section has-text-centered">
+        <h2 className="title is-size-1">Map</h2>
+
+        <img src="/static/map.svg" alt="HackSC Map" className="map-svg" />
       </section>
     </div>
+
+    <Footer />
   </>
 )
 
