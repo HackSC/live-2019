@@ -4,18 +4,18 @@ import Head from '../components/Head'
 
 import NavBar from '../components/NavBar'
 
-const Map = () => (
+const Prizes = () => (
   <>
-    <Head title="HackSC 2019 Live - Map" />
+    <Head title="HackSC 2019 Live - Prizes & Judges" />
 
-    <NavBar page="map" />
+    <NavBar page="prizes" />
 
     <div className="container">
       <section className="section">
-        Map goes here.
+        Prizes & Judges goes here.
       </section>
     </div>
   </>
 )
 
-export default Map
+export default Prizes
