@@ -1,7 +1,7 @@
 import Countdown from 'react-countdown-now';
 
 const CountdownDisplay = (props) => {
-  const startDate = new Date("04/12/2019 5:00 PM")
+  const startDate = new Date("04/12/2019 9:00 PM")
 
   return (
     <div className="countdown">

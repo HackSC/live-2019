@@ -7,6 +7,30 @@ const NavBar = (props) => (
         <a className="navbar-item" href="/">
           <img src="/static/logo.png" alt="HackSC Logo" width="120"/>
         </a>
+
+        <a role="button"
+          className="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+
+          onClick={() => {
+            const navbarBurger = document.querySelector('.navbar-burger');
+            const navbarMenu = document.querySelector('.navbar-menu');
+
+            if (navbarBurger.classList.contains('is-active')) {
+              navbarBurger.classList.remove('is-active');
+              navbarMenu.classList.remove('is-active');
+            } else {
+              navbarBurger.classList.add('is-active');
+              navbarMenu.classList.add('is-active');
+            }
+          }}
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
 
       <div className="navbar-menu">
