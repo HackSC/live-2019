@@ -27,6 +27,7 @@ const NavBar = (props) => (
             </Link>
           </div>
 
+          {/*
           <div className="navbar-item">
             <Link href="/resources">
               <a className={(props.page === 'resources') ? 'is-active' : undefined}>
@@ -34,6 +35,7 @@ const NavBar = (props) => (
               </a>
             </Link>
           </div>
+          */}
 
           <div className="navbar-item">
             <Link href="/faq">
@@ -43,6 +45,8 @@ const NavBar = (props) => (
             </Link>
           </div>
 
+          {
+          /*
           <div className="navbar-item">
             <Link href="/prizes">
               <a className={(props.page === 'prizes') ? 'is-active' : undefined}>
@@ -50,6 +54,8 @@ const NavBar = (props) => (
               </a>
             </Link>
           </div>
+          */
+          }
 
           <div className="navbar-item">
             <Link href="/map">
