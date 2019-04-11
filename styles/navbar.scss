@@ -1,0 +1,9 @@
+.navbar-item {
+  a {
+    color: $black;
+
+    &.is-active {
+      font-weight: bold;
+    }
+  }
+}

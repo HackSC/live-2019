@@ -11,6 +11,10 @@ class Schedule extends Component {
     }
   }
 
+  componentDidMount() {
+    // Fetch messages from Slack :)
+  }
+
   render() {
     const announcements = this.state.announcements
     const announcementsList = announcements.map((announcement) => {

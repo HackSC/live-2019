@@ -1,24 +1,19 @@
 import '../styles/stylesheet.scss'
 
-import logo from '../assets/logo.svg'
-
-import Link from 'next/link'
-
 import Head from '../components/Head'
 
 import NavBar from '../components/NavBar'
 import Countdown from '../components/Countdown'
 import Announcements from '../components/Announcements'
-
 import Schedule from '../components/Schedule'
-
 import LinkItem from '../components/LinkItem'
+import Footer from '../components/Footer'
 
 const Index = () => (
   <>
     <Head title="HackSC 2019 Live" />
 
-    <NavBar/>
+    <NavBar page="live"/>
 
     <div className="container">
       <section className="section">
@@ -56,12 +51,35 @@ const Index = () => (
                   href="https://mlh.io/"
                   img="/static/links/mlh.svg"
                 />
+
+                <LinkItem
+                  title="Facebook"
+                  description="Like our official HackSC Facebook page!"
+                  href="https://facebook.com/hackscofficial"
+                  img="/static/links/facebook.svg"
+                />
+
+                <LinkItem
+                  title="Twitter"
+                  description="Follow our Twitter for live updates"
+                  href="https://twitter.com/hackscofficial"
+                  img="/static/links/twitter.svg"
+                />
+
+                <LinkItem
+                  title="Instagram"
+                  description="Can't be an LA Hackathon without an Instagram"
+                  href="https://instagram.com/hackscofficial"
+                  img="/static/links/instagram.svg"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+    <Footer />
   </>
 )
 

@@ -4,18 +4,18 @@ import Head from '../components/Head'
 
 import NavBar from '../components/NavBar'
 
-const ApiDirectory = () => (
+const Prizes = () => (
   <>
-    <Head title="HackSC 2019 Live - API Directory" />
+    <Head title="HackSC 2019 Live - Prizes & Judges" />
 
-    <NavBar page="api" />
+    <NavBar page="prizes" />
 
     <div className="container">
       <section className="section">
-        <h3 className="coming-soon">API Directory coming soon!</h3>
+        <h3 className="coming-soon">Prizes & Judges coming soon!</h3>
       </section>
     </div>
   </>
 )
 
-export default ApiDirectory
+export default Prizes
