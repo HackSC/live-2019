@@ -3,20 +3,26 @@ const ApiListing = (props) => {
     <a href={link.url} target="_blank" className="button is-primary">{link.text}</a>
   ))
 
-  return (
-    <div className="column is-half">
-      <div className="card">
-        <div className="card-header">
-          <div className="card-header-title is-vcentered api-title">
-            <img src={`/static/logos/${props.data.logo}`} alt={props.data.title} className='logo'/>
+  const description = (props.data.description) ? (<p dangerouslySetInnerHTML={
+    {
+      __html: props.data.description
+    }
+  } />) : (undefined)
 
-            <h2 className="title">{props.data.title}</h2>
-          </div>
+  return (
+    <div className="card api-listing">
+      <div className="card-header">
+        <div className="card-header-title is-vcentered api-title">
+          <img src={`/static/logos/${props.data.logo}`} alt={props.data.title} className='logo'/>
+
+          <h2 className="title">{props.data.title}</h2>
         </div>
-        <div className="card-content">
-          <div className="buttons">
-            {links}
-          </div>
+      </div>
+      <div className="card-content">
+        {description}
+
+        <div className="buttons">
+          {links}
         </div>
       </div>
     </div>
