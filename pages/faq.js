@@ -94,15 +94,6 @@ const FAQ = () => (
           </div>
 
           <div className="column is-half">
-            <h3 className="is-size-4">What if someone gets injured?</h3>
-            <p>
-              For <b>life threatening emergencies</b> please contact contact a HackSC organizer or our MLH representative listed below.
-              <br/><br/>
-              For <b>non-life threatening emergencies</b> please contact contact a HackSC organizer or our MLH representative list below.
-            </p>
-          </div>
-
-          <div className="column is-half">
             <h3 className="is-size-4">What if my question isn't here?</h3>
             <p>Feel free to ask any and all other questions that aren't listed here in the #askit channel in Slack.</p>
           </div>
