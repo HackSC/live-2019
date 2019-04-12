@@ -1,5 +1,7 @@
 import { Component } from 'react'
 
+import Papa from 'papaparse'
+
 import Announcement from './Announcement'
 
 class Schedule extends Component {
@@ -12,7 +14,32 @@ class Schedule extends Component {
   }
 
   componentDidMount() {
-    // Fetch messages from Slack :)
+    const announcementsComponent = this
+
+    // Parse the schedule CSV and make sense of it :)
+    Papa.parse("/static/announcements.csv", {
+    	download: true,
+    	complete: function(results) {
+        const announcements = []
+
+        results.data.splice(1).forEach((result, index) => {
+          if (result.length != 3) {
+            // We need at least 3 fields to process rows of data
+            return;
+          }
+
+          announcements.unshift({
+            title: result[0],
+            description: result[1],
+            time: result[2]
+          })
+        })
+
+        announcementsComponent.setState({
+          announcements
+        })
+    	}
+    })
   }
 
   render() {

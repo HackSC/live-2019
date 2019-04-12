@@ -67,8 +67,8 @@ class Schedule extends Component {
     	}
     })
 
-    // Re-render schedule every 5 minutes
-    setInterval(this.updateSchedule, 1000 * 60 * 5)
+    // Re-render schedule every minute
+    setInterval(this.updateSchedule, 1000 * 60)
   }
 
   generateScheduleEvent = (event, index) => (
