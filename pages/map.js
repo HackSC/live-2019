@@ -34,9 +34,9 @@ const Map = () => (
           </div>
 
           <div className="column is-one-third">
-            <h3 className="is-size-3">Fun Area</h3>
+            <h3 className="is-size-3">Fun Workshop Area</h3>
             <p>
-              Be on the lookout for fun events throughout the course of the hackathon! We'll be hosting fun events like Soylent Pong (you read that right), a Nerf Tournament, and much.
+              Be on the lookout for fun events throughout the course of the hackathon! We'll be hosting fun events like Soylent Pong (you read that right), a Nerf Tournament, and much more.
             </p>
           </div>
 

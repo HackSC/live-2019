@@ -14,7 +14,7 @@ const NavBar = (props) => (
           aria-expanded="false"
           data-target="navbarBasicExample"
 
-          onClick={() => {
+          onClick={() => { 
             const navbarBurger = document.querySelector('.navbar-burger');
             const navbarMenu = document.querySelector('.navbar-menu');
 
