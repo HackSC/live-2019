@@ -1,0 +1,150 @@
+[
+  {
+    "title": "AWS",
+    "logo": "aws.svg",
+    "companyDescription": "For almost 13 years, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud platform. AWS offers over 165 fully featured services for compute, storage, databases, networking, analytics, robotics, machine learning and artificial intelligence (AI), Internet of Things (IoT), mobile, security, hybrid, virtual and augmented reality (VR and AR), media, and application development, deployment, and management from 60 Availability Zones (AZs) within 20 geographic regions, spanning the U.S., Australia, Brazil, Canada, China, France, Germany, India, Ireland, Japan, Korea, Singapore, Sweden, and the UK. Millions of customers including the fastest-growing startups, largest enterprises, and leading government agencies—trust AWS to power their infrastructure, become more agile, and lower costs. To learn more about AWS, visit aws.amazon.com",
+    "description": "AWS Amplify (https://aws.amazon.com/amplify/) makes it easy to create, configure, and implement scalable mobile and web apps powered by AWS. Amplify seamlessly provisions and manages your mobile backend and provides a simple framework to easily integrate your backend with your iOS, Android, Web, and React Native frontends. You just select the capabilities you need such as authentication, analytics, offline data sync, push notifications, bots, or AR/VR and Amplify will automatically provision and manage the AWS service that powers each of the capabilities. You can then integrate those capabilities into your application through the Amplify libraries and UI components.\nTo get started with AWS Amplify and for a curated list of tools, tutorials, and example projects, check out Awesome AWS Amplify (https://github.com/dabit3/awesome-aws-amplify).\nFor a list of resources to get started with AWS, check out our AWS Hackathon Guide (https://syum.github.io/aws-hackathon-guide/).",
+    "links": [
+      {
+        "text": "AWS Amplify",
+        "url": "https://aws.amazon.com/amplify/"
+      },
+      {
+        "text": "Awesome AWS Amplify",
+        "url": "https://github.com/dabit3/awesome-aws-amplify"
+      },
+      {
+        "text": "AWS Hackathon Guide",
+        "url": "https://syum.github.io/aws-hackathon-guide/"
+      }
+    ]
+  },
+  {
+    "title": "OmniSci",
+    "logo": "omnisci.svg",
+    "companyDescription": "OmniSci is the pioneer in GPU-accelerated analytics, redefining speed and scale in big data querying and visualization. The OmniSci platform is used to find insights in data beyond the limits of mainstream analytics tools. Harnessing the massive parallel computing power of GPUs, the platform is available in the cloud and on-premise. OmniSci originated from research at Harvard and MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).",
+    "description": "Here's the starter packet (https://docs.google.com/document/d/1lldH1jbHsR-NZqlIseBA7qOCjLoDOoLA4JI_XS3qJGg/edit?usp=sharing)",
+    "links": [
+      {
+        "text": "Starter Packet",
+        "url": "https://docs.google.com/document/d/1lldH1jbHsR-NZqlIseBA7qOCjLoDOoLA4JI_XS3qJGg/edit"
+      }
+    ]
+  },
+  {
+    "title": "Totle",
+    "logo": "totle.svg",
+    "companyDescription": "Totle powers the dApp economy. The Totle API offers a single source of liquidity powering decentralized payment systems, exchanges, and other open financial apps.",
+    "description": "...",
+    "links": [
+      {
+        "text": "API",
+        "url": "https://www.totle.com/api"
+      },
+      {
+        "text": "Documentation",
+        "url": "https://www.totle.com/docs/home"
+      }
+    ]
+  },
+  {
+    "title": "Polarr",
+    "logo": "polarr.svg",
+    "companyDescription": "",
+    "description": "...",
+    "links": [
+      {
+        "text": "API Directory",
+        "url": "https://www.polarr.co/hacksc"
+      }
+    ]
+  },
+  {
+    "title": "Mux",
+    "logo": "mux.svg",
+    "companyDescription": "",
+    "description": "...",
+    "links": [
+      {
+        "text": "API Documentation",
+        "url": "https://docs.mux.com/docs/video"
+      }
+    ]
+  },
+  {
+    "title": "Smartcar",
+    "logo": "smartcar.png",
+    "companyDescription": "",
+    "description": "...",
+    "links": [
+      {
+        "text": "Smartcar Website",
+        "url": "https://smartcar.com"
+      },
+      {
+        "text": "API Reference",
+        "url": "https://smartcar.com/docs/api#introduction"
+      }
+    ]
+  },
+  {
+    "title": "API Cloud",
+    "logo": "apicloud.svg",
+    "companyDescription": "",
+    "description": "...",
+    "links": [
+      {
+        "text": "Link",
+        "url": "https://www.apicloud.com/modulestore"
+      },
+      {
+        "text": "API Signup",
+        "url": "https://www.apicloud.com/signup"
+      },
+      {
+        "text": "API Documentation",
+        "url": "https://www.apicloud.com/signup"
+      }
+    ]
+  },
+  {
+    "title": "Sketch",
+    "logo": "sketch.svg",
+    "companyDescription": "",
+    "description": "...",
+    "links": [
+      {
+        "text": "Sketch",
+        "url": "https://sketchapp.com"
+      }
+    ]
+  },
+  {
+    "title": "Facebook",
+    "logo": "facebook.svg",
+    "companyDescription": "",
+    "description": "...",
+    "links": [
+      {
+        "text": "Facebook Documentation",
+        "url": "https://developers.facebook.com/docs"
+      }
+    ]
+  },
+  {
+    "title": "Blockstack",
+    "logo": "blockstack.svg",
+    "companyDescription": "",
+    "description": "...",
+    "links": [
+      {
+        "text": "Documentation",
+        "url": "https://paper.dropbox.com/doc/HackSC-Promotion-Resources-vVAG2Oc3tT6SfYL6xTgci?bmnt=AAAQecQk33V4tHp8mW_JgsNZuCFI5B21PQ0&eid=1gg93YTFuDOMAmeII7I6JQLiWZPAT93pxxUtZTaHnNBqkyegmBgM&email=sponsorship%40hacksc.com"
+      },
+      {
+        "text": "HackSC Link",
+        "url": "https://community.blockstack.org/hacksc"
+      }
+    ]
+  }
+]

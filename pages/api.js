@@ -3,19 +3,35 @@ import '../styles/stylesheet.scss'
 import Head from '../components/Head'
 
 import NavBar from '../components/NavBar'
+import ApiListing from '../components/ApiListing'
+import Footer from '../components/Footer'
 
-const ApiDirectory = () => (
-  <>
-    <Head title="HackSC 2019 Live - API Directory" />
+import Data from '../data/api.json'
 
-    <NavBar page="api" />
+const ApiDirectory = () => {
+  const apis = Data.map((api, index) => (
+    <ApiListing data={api} key={index} />
+  ))
 
-    <div className="container">
-      <section className="section">
-        <h3 className="coming-soon">API Directory coming soon!</h3>
-      </section>
-    </div>
-  </>
-)
+  return (
+    <>
+      <Head title="HackSC 2019 Live - API Directory" />
+
+      <NavBar page="api" />
+
+      <div className="container api">
+        <section className="section">
+          <h2 className="has-text-centered">API Directory</h2>
+          
+          <div className="columns is-multiline">
+            {apis}
+          </div>
+        </section>
+      </div>
+
+      <Footer />
+    </>
+  )
+}
 
 export default ApiDirectory

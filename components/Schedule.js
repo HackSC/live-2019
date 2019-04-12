@@ -18,8 +18,16 @@ class Schedule extends Component {
       filter: {
         day: '',
         event: ''
-      }
+      },
+      lastUpdated: new Date()
     }
+  }
+
+  updateSchedule = () => {
+    // Used to force re-render every 5 minutes
+    this.setState({
+      lastUpdated: new Date()
+    })
   }
 
   componentDidMount() {
@@ -33,19 +41,21 @@ class Schedule extends Component {
         const schedule = []
 
         results.data.splice(1).forEach((result, index) => {
-          if (result.length !== 5) {
-            // We need at least 5 fields to process rows of data
+          if (result.length != 7) {
+            // We need at least 7 fields to process rows of data
             return;
           }
-
-          console.log(result[3])
 
           const eventDate = moment(result[0], 'MMMM D, h:mm A').toDate()
           schedule.push({
             time: new moment(eventDate).format('ddd h:mm A').toString(),
+            startTime: moment(result[0], 'MMMM D, h:mm A'),
+            endTime: moment(result[1], 'MMMM D, h:mm A'),
             title: result[2],
+            location: result[3],
             label: result[4].toLowerCase(),
-            description: (result[3] !== '') ? (result[3]) : (undefined),
+            description: result[5],
+            priority: result[6],
             showDetails: false,
             index: index + 1 // Add 1 because of the splice
           })
@@ -56,23 +66,25 @@ class Schedule extends Component {
         })
     	}
     })
+
+    // Re-render schedule every 5 minutes
+    setInterval(this.updateSchedule, 1000 * 60 * 5)
   }
 
   generateScheduleEvent = (event, index) => (
     <ScheduleEvent
       time={event.time}
+      startTime={event.startTime}
+      endTime={event.endTime}
       title={event.title}
       label={event.label}
+      location={event.location}
       description={event.description}
-      key={event.time + ' - ' + index}
+      key={event.title + ' - ' + index}
       showDetails={event.showDetails}
       onClick={() => {
-        console.log("on click")
-
         const schedule = this.state.schedule
-        schedule[index].showDetails = !schedule[index].showDetails
-
-        console.log(schedule[index])
+        schedule[event.index-1].showDetails = !schedule[event.index-1].showDetails
 
         this.setState({schedule})
       }}
