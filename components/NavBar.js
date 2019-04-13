@@ -51,16 +51,6 @@ const NavBar = (props) => (
             </Link>
           </div>
 
-          {/*
-          <div className="navbar-item">
-            <Link href="/resources">
-              <a className={(props.page === 'resources') ? 'is-active' : undefined}>
-                Resources
-              </a>
-            </Link>
-          </div>
-          */}
-
           <div className="navbar-item">
             <Link href="/faq">
               <a className={(props.page === 'faq') ? 'is-active' : undefined}>
@@ -76,6 +66,15 @@ const NavBar = (props) => (
               </a>
             </Link>
           </div>
+
+          {/*
+          <div className="navbar-item">
+            <Link href="/judges">
+              <a className={(props.page === 'judges') ? 'is-active' : undefined}>
+                Judges
+              </a>
+            </Link>
+          </div>*/}
 
           <div className="navbar-item">
             <Link href="/map">

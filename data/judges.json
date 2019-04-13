@@ -1,0 +1,274 @@
+[
+  {
+    "vertical": "Entrepeneurship",
+    "name": "Dave Bullock",
+    "title": "Sr. Director of Technology, Engineering and Operations, Wag Labs, Inc.",
+    "link": "https://LinkedIn.com/in/eecue",
+    "headshot": "David_Bullock.jpeg",
+    "email": "dave.bullock@wagwalking.com"
+  },
+  {
+    "vertical": "Entrepeneurship",
+    "name": "Stu Harvey",
+    "title": "Co-Founder & CEO, Foreknow",
+    "link": "www.foreknow.com",
+    "headshot": "Stu_Harvey.png",
+    "email": "stu@foreknow.com"
+  },
+  {
+    "vertical": "Entrepeneurship",
+    "name": "Travis Holoway",
+    "title": "Co-Founder & CEO, SoLo Funds",
+    "link": "solofunds.com",
+    "headshot": "Travis_Holoway.jpg",
+    "email": "travis@solofunds.com"
+  },
+  {
+    "vertical": "Entrepeneurship",
+    "name": "David Anderson",
+    "title": "Cofounder & Chief Digital Officer, Gains Group",
+    "link": "www.gainsgroup.com",
+    "headshot": "David_Anderson.jpeg",
+    "email": "dave@gainsgroup.com"
+  },
+  {
+    "vertical": "Entrepeneurship",
+    "name": "Stephen Partridge",
+    "title": "Co-Founder & President, Events.com",
+    "link": "events.com",
+    "headshot": "Stephen_Partridge.jpg",
+    "email": "spartridge@events.com"
+  },
+  {
+    "vertical": "Entrepeneurship",
+    "name": "Andrew Farah",
+    "title": "CEO, Density",
+    "link": "density.io",
+    "headshot": "Andrew_Farah.jpg",
+    "email": "andrew@density.io"
+  },
+  {
+    "vertical": "Entrepeneurship",
+    "name": "Roy Dequina",
+    "title": "Founder & CEO, JUNXION",
+    "link": "https://www.linkedin.com/in/roydequina/",
+    "headshot": "Roy_Dequina.jpeg",
+    "email": "roy@junxion.co"
+  },
+  {
+    "vertical": "Entrepeneurship",
+    "name": "Alek Tan",
+    "title": "CEO & Co-Founder, InnoDT",
+    "link": "innodt.com",
+    "headshot": "Alek_Tan.jpeg",
+    "email": "alek.tan@innodt.com"
+  },
+  {
+    "vertical": "Entrepeneurship",
+    "name": "Juan Moreno",
+    "title": "CoFounder & CTO, Gavelytics",
+    "link": "https://www.linkedin.com/in/jcrogel/",
+    "headshot": "Juan_Moreno.jpg",
+    "email": "jc@gavelytics.com"
+  },
+  {
+    "vertical": "Entertainment",
+    "name": "Matt Hessing",
+    "title": "VP of Engineering, AppOnboard",
+    "link": "https://apponboard.com",
+    "headshot": "Matt_Hessing.jpg",
+    "email": "matt.hessing@apponboard.com"
+  },
+  {
+    "vertical": "Enertainment",
+    "name": "Pablo Leon-Luna",
+    "title": "Cofounder, Baby Rage Games",
+    "link": "https://www.linkedin.com/in/paleonluna/",
+    "headshot": "Pablo_Leon-Luna.jpg",
+    "email": "pablo@babyragegames.com"
+  },
+  {
+    "vertical": "Entertainment",
+    "name": "Antek Baranski",
+    "title": "CTO, Esports One",
+    "link": "https://www.esportsone.com",
+    "headshot": "Antek_Baranski.jpg",
+    "email": "antek@esports.one"
+  },
+  {
+    "vertical": "Entertainment",
+    "name": "Armando Kirwin",
+    "title": "Co-founder, Artie",
+    "link": "www.artie.com",
+    "headshot": "default.jpg",
+    "email": "armando@artie.com"
+  },
+  {
+    "vertical": "Entertainment",
+    "name": "Reginald Grant",
+    "title": "CEO, eSportsInstruction",
+    "link": "http://www.esportsinstruction.com",
+    "headshot": "Reginald_Grant.jpg",
+    "email": "rgrant@esportsinstruction.com"
+  },
+  {
+    "vertical": "Entertainment",
+    "name": "Dr. Andrew Goodney, PhD",
+    "title": "Lecturer in Computer Science, USC",
+    "link": "https://www.cs.usc.edu/",
+    "headshot": "Andrew_Goodney.JPG",
+    "email": "goodney@usc.edu"
+  },
+  {
+    "vertical": "Entertainment",
+    "name": "JonLuca De Caro",
+    "title": "Software Engineer",
+    "link": "jonlu.ca",
+    "headshot": "The_Embodiment_of_Man_Love.JPG",
+    "email": "jdecaro@usc.edu"
+  },
+  {
+    "vertical": "Entertainment",
+    "name": "Joby Otero",
+    "title": "CEO, Hamstapus",
+    "link": "https://www.linkedin.com/in/jobyotero/",
+    "headshot": "Joby_Otero.jpg",
+    "email": "joby@jobyotero.com"
+  },
+  {
+    "vertical": "Entertainment",
+    "name": "Jason Goldberg",
+    "title": "Co-founder & President, VYRL",
+    "link": "Www.getcarro.com",
+    "headshot": "Jason_Goldberg.jpeg",
+    "email": "jason@vyrl.co"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "Paul Francis",
+    "title": "CEO, KIGT",
+    "link": "www.KIGTinc.com",
+    "headshot": "Paul_Francis.jpeg",
+    "email": "paul@kigt.co"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "Puneet Bhasin",
+    "title": "Co-Founder & CTO, GLYD",
+    "link": "http://www.GLYD.co",
+    "headshot": "Puneet_Bhasin.JPG",
+    "email": "puneet@glydapp.com"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "Bryce Prior",
+    "title": "Operations & Strategy, Leo Aerospace",
+    "link": "leoaerospace.com",
+    "headshot": "Bryce_Prior.jpg",
+    "email": "abishek@leoaerospace.com"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "Aaron Siegel",
+    "title": "Assistant Professor of Design, USC Iovine and Young Academy",
+    "link": "https://iovine-young.usc.edu/",
+    "headshot": "Aaron_Siegel.jpg",
+    "email": "aaronsie@usc.edu"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "Abishek Murali",
+    "title": "Systems & Regulations, Leo Aerospace",
+    "link": "leoaerospace.com",
+    "headshot": "Abishek_Murali.png",
+    "email": "abishek@leoaerospace.com"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "Ishan Singh",
+    "title": "CEO, SRVE",
+    "link": "http://www.srve.co/",
+    "headshot": "Ishan_Singh.JPG",
+    "email": "ishan@srve.co"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "Cara Lunsford, RN",
+    "title": "Founder & CEO, HolliBlu LLC",
+    "link": "www.holliblu.com",
+    "headshot": "Cara_Lunsford.png",
+    "email": "clunsford@holliblu.com"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "Patrick Dent",
+    "title": "Associate Professor & Assistant Dean of Curriculum, USC Iovine and Young Academy",
+    "link": "https://iovine-young.usc.edu/people/faculty/Patrick-Dent-MS_12.html",
+    "headshot": "Patrick_Dent.jpg",
+    "email": "dent@usc.edu"
+  },
+  {
+    "vertical": "Transportation",
+    "name": "David Maust",
+    "title": "Consulting CTO, SRVE",
+    "link": "http://www.srve.co/",
+    "headshot": "David_Maust.JPG",
+    "email": "ishan@srve.co"
+  },
+  {
+    "vertical": "",
+    "name": "Patrick Zhang",
+    "title": "SVP Engineering, Protecht",
+    "link": "https://www.linkedin.com/in/patzhang/",
+    "headshot": "Patrick_Zhang.jpg",
+    "email": "p.zhang@protecht.io"
+  },
+  {
+    "vertical": "",
+    "name": "Gitesh Patel",
+    "title": "CEO, Sargas Pharmaceutical Adherence & Compliance (S.P.A.C) International.",
+    "link": "www.spacinternational.com",
+    "headshot": "gitesh-patel.jpg",
+    "email": "gpatel@spacinternational.com"
+  },
+  {
+    "vertical": "",
+    "name": "Aravind Kumaraguru",
+    "title": "PhD student, USC RESL",
+    "link": "https://www.linkedin.com/in/aravindkumaraguru/",
+    "headshot": "Aravind_Kumaraguru.jpg",
+    "email": "akumarag@usc.edu"
+  },
+  {
+    "vertical": "",
+    "name": "Nipun Manral",
+    "title": "Data Scientist",
+    "link": "https://www.linkedin.com/in/nipunmanral/",
+    "headshot": "Nipun_Manral.jpg",
+    "email": "manral@usc.edu"
+  },
+  {
+    "vertical": "",
+    "name": "Jay Clewis",
+    "title": "Lecturer of Communication & Design, USC Iovine and Young Academy",
+    "link": "https://jayclewis.com/",
+    "headshot": "Jay_Clewis.jpg",
+    "email": "jayclewis@gmail.com"
+  },
+  {
+    "vertical": "",
+    "name": "Kalpana Thakur",
+    "title": "Software Engineer, AT&T",
+    "link": "https://www.linkedin.com/in/kalpana-thakur-bb45b324/",
+    "headshot": "Kalpana_Thakur.png",
+    "email": "kalpanathakur08@gmail.com"
+  },
+  {
+    "vertical": "",
+    "name": "Davina Wolter",
+    "title": "Principle & Founder, Create Crisp",
+    "link": "",
+    "headshot": "default.jpg",
+    "email": "dwolter@usc.edu"
+  }
+]
