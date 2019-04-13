@@ -145,5 +145,25 @@
         "url": "https://docs.mux.com/docs/video"
       }
     ]
+  },
+  {
+    "title": "Cloudflare",
+    "logo": "cloudflare.svg",
+    "description": "<a href='https://developers.cloudflare.com/workers/about/'>Cloudflare Workers</a> allows you to write serverless JavaScript code that deploys and runs in 165+ locations simultaneously. You can use this code to alter requests on the way to and from your server, or create API’s that run all around the world.<br/><br/><a href='https://dash.cloudflare.com/sign-up'>Sign up</a> for a Cloudflare Account and put the email you signed up for Cloudflare with into <a href='https://docs.google.com/forms/d/e/1FAIpQLSdIrk151fdm0aYX4YWAN-LOvD7QoLZAHPXvew-z65uymYV74g/viewform'>this Google Form</a>.<br/><br/>",
+    "links": [
+      {
+        "text": "Cloudflare Workers",
+        "url": "https://developers.cloudflare.com/workers/about/"
+      },
+      {
+        "text": "Cloudflare Sign-up",
+        "url": "https://dash.cloudflare.com/sign-up"
+      },
+      {
+        "text": "Cloudflare Google Form",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdIrk151fdm0aYX4YWAN-LOvD7QoLZAHPXvew-z65uymYV74g/viewform"
+      }
+    ]
+
   }
 ]
