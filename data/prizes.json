@@ -1,0 +1,117 @@
+[
+  {
+    "title": "Entrepreneurship",
+    "vertical": true,
+    "description": "Everything's gotta start somewhere. With a team you come in with, or one you make while at HackSC, establish working relationships which will extend long past the weekend of April 12. Under 'Entrepreneurship,' we want to establish a space where you can create products, not just projects.<br/><br/>Each member of the winning team gets:<ul><li>- $150 Amazon Gift Card</li><li>- Meeting with Okapi Ventures VC</li></ul>"
+  },
+  {
+    "title": "Entertainment",
+    "vertical": true,
+    "description": "You're in LA, what did you expect? We're not looking for Ryan Gosling's replacement, his spot is full. However, there is plenty of room in regards to other tech developments across all fields: music, gaming and interactive media, and naturally film and VFX.<br/><br/>Each member of the winning team gets:<ul><li>- Oculus GO</li><li>- EA Game Keys</li></ul>"
+  },
+  {
+    "title": "Transportation",
+    "vertical": true,
+    "description": "It's about time someone invented teleportation... or effective LA public transit. You decide. Mobility comes in many ways besides current public transit and ridesharing programs, and so it's up to you to take the initiative to develop new advances in transportation in an increasingly globalized world.<br/><br/>Each member of the winning team gets:<ul><li>- Dragon Touch Camera</li><li>- Camera Kit</li><li>Tech Travel Backpack</li><li>- and.. tickets to STOCKHOLM!</li></ul>"
+  },
+  {
+    "title": "[Facebook] Facebook's Favorite Product",
+    "description": "Best Product that empowers people to connect using Facebook technologies. Winning team gets invitations to attend F8 and participate in the hackathon --all inclusive (incl. fight, room and board, food, ...)"
+  },
+  {
+    "title": "[AWS] Best Mobile or Web App - First Place",
+    "description": "We challenge you to use AWS Amplify to build the best working mobile or web app that connects to at least one AWS service. Each winning team member gets an Echo Spot."
+  },
+  {
+    "title": "[AWS] Best Mobile or Web App  - Second Place",
+    "description": "We challenge you to use AWS Amplify to build the best working mobile or web app that connects to at least one AWS service. Each winning team member gets an Echo."
+  },
+  {
+    "title": "[AWS] Best Mobile or Web App - Third Place",
+    "description": "We challenge you to use AWS Amplify to build the best working mobile or web app that connects to at least one AWS service. Each winning team member gets an Echo Dot."
+  },
+  {
+    "title": "[iTradeNetwork] The Freshest Hack Challenge",
+    "description": "The team that demonstrates and executes the most innovative feature, concept or module that could be applied to one of the products we present (Fresh and Trace) will win a prize! The feature, concept, or module does not need to represent the entirety of your hackathon project, but it should be inspired by or a functional piece of your larger hackathon project. Each member of the winning team gets a $250 Visa Gift Card and Bose Micro Soundlink Portable Speaker"
+  },
+  {
+    "title": "[OmniSci] OmniSci's Favorite Hack",
+    "description": "Each team member will win their own AirPods and an OmniSci swag bag."
+  },
+  {
+    "title": "[Tailored Brands] Best use of Tailored Brand's data",
+    "description": "Bring your predictive modeling skills to our big data challenge, and help predict what will make our customers love the way they look. Each winning team member gets their own tailored interview suits [fits every gender]."
+  },
+  {
+    "title": "[Totle] Totle's Favorite Hack",
+    "description": "We’re looking for developers to build a dapp using, but not limited to, Totle’s endpoints (totle.com/docs/home) that betters the financial lives of its users. Totle’s prize is 5,000 DAI (an ERC20 stablecoin backed by USD where 1 DAI = $1 USD), and Ledgers (cryptocurrency hardware wallets). In the event of two equally competing projects, the prize might be split."
+  },
+  {
+    "title": "[Polarr] Polarr's Favorite Hack",
+    "description": "The team that best utilizes the Polarr Vision Engine APIs to deliver edge-based AI capabilities on iOS/MacOS wins a set of Apple Airpods (Gen 2) and a 248 year or one orbital period of Pluto (whichever is longer) subscription to Polarr Pro Photo Editor."
+  },
+  {
+    "title": "[Transposit] The Best Use of Transposit",
+    "description": "Only qualification for the prize is that students must use Transposit as part of their project. Each member of the winning team will receive a mechanical keyboard."
+  },
+  {
+    "title": "[Crowdstrike] Crowdstrike's Favorite Hack",
+    "description": "Create a project using one or more of the following technologies: golang, Elasticsearch, Cassandra, kafka. Best team project receives $500 Amazon gift card."
+  },
+  {
+    "title": "[Cloudflare] Best use of Serverless",
+    "description": "Show us your best use case for serverless technology for a chance to win an Adafruit gift card and/or a signed copy of the book \"Hands-On Robotics with JavaScript: Build robotic projects using Johnny-Five and control hardware with JavaScript and Raspberry Pi\"!"
+  },
+  {
+    "title": "[GCP] Best Use of Google Cloud Platform - First Place",
+    "description": "Use any Google Cloud Platform product (including Firebase) to qualify. See all our products at <a href='https://cloud.google.com/products/'>https://cloud.google.com/products/</a>. Google Home Minis, Cloud Patagonia Backpacks, Cloud Pillows, Acrylic Trophies, and Cloud Water Bottles for each member of the winning team."
+  },
+  {
+    "title": "[GCP] Best Use of Google Cloud Platform - Second Place",
+    "description": "Use any Google Cloud Platform product (including Firebase) to qualify. See all our products at <a href='https://cloud.google.com/products/'>https://cloud.google.com/products/</a>. Google Cloud Patagonia Backpacks, Cloud Pillows, Acrylic Trophies, and Cloud Water Bottles for each member of the runner-up team."
+  },
+  {
+    "title": "[Smartcar] Hack into Tesla!",
+    "description": "We will be hiding a Google Home Mini in the Tesla, and announcing that the first person to unlock the car doors using our API will be allowed to open the doors and take it. :)"
+  },
+  {
+    "title": "[Smartcar] Best Use of Smartcar API - First Place",
+    "description": "Build the best car app using the Smartcar API. We're looking for creative, complete and interesting apps - we'd love to see you demo on the Tesla Model S we have onsite during judging! We're handing out Google Home Minis with a smart bulb to first place winners."
+  },
+  {
+    "title": "[Smartcar] Best Use of Smartcar API - Second Place",
+    "description": "Build the best car app using the Smartcar API. We're looking for creative, complete and interesting apps - we'd love to see you demo on the Tesla Model S we have onsite during judging! We're handing out Amazon gift cards to the second place."
+  },
+  {
+    "title": "[Blockstack] Blockstack's Favorite Hack",
+    "description": "Build a Blockstack App! $1,000 total to the winning team. Plus each team member will receive Apple AirPods (Gen. 2), a Blockstack hoodie, t-shirt and stickers!"
+  },
+  {
+    "title": "[Jumpstart] Welcome to the family!",
+    "description": "We're excited to have you. Sign up and/or check into our event (<a href='https://jumpstart.me/discover/events/jumpstart/jumpstart-at-hack-sc/d95c03ba-906b-4f54-9058-29b33918802b'>https://jumpstart.me/discover/events/jumpstart/jumpstart-at-hack-sc/d95c03ba-906b-4f54-9058-29b33918802b</a>) to be entered into a raffle for a $1,000 cash prize. We will be announcing the winner on Saturday at 8pm and our CEO will be here to hand deliver the prize."
+  },
+  {
+    "title": "[MLH] Best Use of Snap Kit",
+    "description": "Use Snap Kit's web or mobile SDK in your hack. Each winning team member will receive a pair of Spectacles by Snapchat or another awesome prize."
+  },
+  {
+    "title": "[MLH] Best Domain Registered with Domain.com",
+    "description": "Register a domain using Domain.com during the weekend. Each team may submit one entry per person on the team. Each winning team member will receive a Raspberry Pi & PiHut Essential Kit."
+  },
+  {
+    "title": "[MLH] Best IoT Hack using a Qualcomm Device ",
+    "description": "Use a Qualcomm device, like the Dragonboard 410C, in your IoT project. Each winning team member will receive their own DragonBoard 410C."
+  },
+  {
+    "title": "Best Beginner Hack",
+    "description": "If it's your first time at a Hackathon, this prize is for you! We're looking for the best effort from a hacker newbie who made the most out of HackSC. Welcome to the hacker community!"
+  },
+  {
+    "title": "Best Design",
+    "description": "This is for all the nit-pickers, illustrator pros, or just anyone who appreciates clean, beautiful design. Whether you're focused on simplicity, responsiveness, communicability, style, we'd love to see how your project is designed the way it is!"
+  },
+  {
+    "title": "[Mux] Best use of Mux API",
+    "description": "Mux is video infrastructure built by the experts. Take any video file or live stream and make it play beautifully at scale on any device, powered by magical-feeling features like automatic thumbnails, animated gifs, and data-driven encoding decisions. Spend your time building what people want, not drudging through ffmpeg documentation.<br/><br/>Best use of Mux API will win a $100 gift card!"
+  }
+]

@@ -14,7 +14,7 @@ const NavBar = (props) => (
           aria-expanded="false"
           data-target="navbarBasicExample"
 
-          onClick={() => { 
+          onClick={() => {
             const navbarBurger = document.querySelector('.navbar-burger');
             const navbarMenu = document.querySelector('.navbar-menu');
 
@@ -69,17 +69,13 @@ const NavBar = (props) => (
             </Link>
           </div>
 
-          {
-          /*
           <div className="navbar-item">
             <Link href="/prizes">
               <a className={(props.page === 'prizes') ? 'is-active' : undefined}>
-                Prizes & Judges
+                Prizes
               </a>
             </Link>
           </div>
-          */
-          }
 
           <div className="navbar-item">
             <Link href="/map">
