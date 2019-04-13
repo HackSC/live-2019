@@ -1,42 +1,11 @@
-Start Time,End Time,Title,Location,Type,Description,Priority
-"April 12, 5:00 PM","April 12, 10:00 PM",Check-in Begins,1st Floor Atrium,General,,1
-"April 12, 6:00 PM","April 12, 8:00 PM",Dinner,Food Serving Area,Food,,1
-"April 12, 6:00 PM","April 12, 7:00 PM",Team Matching Workshop,Main Workshop Area,Fun,,1
-"April 12, 7:15 PM","April 12, 9:00 PM",Opening Ceremony,1st Floor Fashion Theater,General,,1
-"April 12, 9:00 PM","April 12, 10:00 PM",Team Matching Workshop Part 2,Fun Workshop Area,Workshop,,1
-"April 12, 9:00 PM","April 12, 10:40 PM",API Rush Begins,Sponsor Area,General,,1
-"April 12, 9:00 PM","April 12, 11:59 PM",Hacking Begins!,,General,,1
-"April 12, 9:30 PM","April 12, 10:20 PM",AWS: Building Hackathon Projects on AWS ,Main Workshop Area,Fun,,1
-"April 12, 10:30 PM","April 12, 11:20 PM","Facebook: Intro to FB Developer Circles, Spark AR, and React Development",Main Workshop Area,Workshop,,1
-"April 12, 11:30 PM","April 12, 11:50 PM",OmniSci: Leveraging GPU Data Analytics with OmniSci & Tailored Brands,Main Workshop Area,Workshop,,1
-"April 13, 12:00 AM","April 13, 12:20 AM",APICloud: A Low-Code Development Platform from China,Main Workshop Area,Workshop,,1
-"April 13, 12:30 AM","April 13, 12:50 AM",iTradeNetwork: Managing the challenge of fresh,Main Workshop Area,Workshop,,1
-"April 13, 1:00 AM","April 13, 1:50 AM",Polarr Vision Engine: Edge-based AI running on your Smartphone,Main Workshop Area,Workshop,,1
-"April 13, 1:00 AM","April 13, 3:00 AM",Soylent Pong Tournament,Fun Workshop Area,Fun,,1
-"April 13, 6:00 AM","April 13, 7:00 AM",Sunrise Yoga,Fun Workshop Area,Fun,,1
-"April 13, 7:00 AM","April 13, 9:00 AM",Breakfast,Food Serving Area,Food,,1
-"April 13, 9:00 AM","April 13, 9:20 AM",The Trade Desk: Monitoring & Debugging Large-Scale Production,Main Workshop Area,Workshop,,1
-"April 13, 9:30 AM","April 13, 9:50 AM",Totle: Decentralized Trading Doesn’t Have To Suck,Main Workshop Area,Workshop,,1
-"April 13, 9:30 AM","April 13, 10:20 AM",Puppy Pen Event,Fun Workshop Area ,Fun,,1
-"April 13, 10:00 AM","April 13, 10:20 AM",How we do at Headspace: Backward Engineering,Main Workshop Area,Workshop,,1
-"April 13, 10:30 AM","April 13, 10:50 AM",Transposit: Building API-powered apps with Transposit,Main Workshop Area,Workshop,,1
-"April 13, 11:00 AM","April 13, 12:00 PM",Speed Networking Workshop,,Workshop,,1
-"April 13, 12:00 PM","April 13, 2:00 PM",Lunch,Food Serving Area,Food,,1
-"April 13, 2:00 PM","April 13, 2:20 PM",GCP: Three Powerful Google Cloud Products for Your Project,Main Workshop Area,Workshop,,1
-"April 13, 2:30 PM","April 13, 2:50 PM",Connect my car: Building apps for cars with the Smartcar API,Main Workshop Area,Workshop,,1
-"April 13, 4:30 PM","April 13, 6:30 PM",MLH Cupstacking,Fun Workshop Area,Fun,,1
-"April 13, 6:00 PM","April 13, 6:50 PM",AmplifyLA Workshop,Main Workshop Area,Workshop,,1
-"April 13, 7:00 PM","April 13, 9:00 PM",Dinner,Food Serving Area,Food,,1
-"April 13, 9:00 PM","April 13, 10:00 PM",Improv Workshop,,Fun,,1
-"April 13, 9:00 PM","April 14, 2:00 AM",USC Shuttles Begin,The Plaza (Outside),General,,1
-"April 13, 10:00 PM","April 13, 11:00 PM",Cookie Decorating,Fun Workshop Area,Fun,,1
-"April 13, 11:00 PM","April 14, 12:00 AM",Nerf Tournament,Fun Workshop Area,Fun,,1
-"April 14, 12:00 AM","April 14, 1:30 AM",Presentation Karoke,,Fun,,1
-"April 14, 12:00 AM","April 14, 1:30 AM",Midnight Snack,Hacker Lounge,Food,,1
-"April 14, 6:00 AM","April 14, 11:00 AM",USC Morning Shuttles Begin,,General,,1
-"April 14, 8:00 AM","April 14, 9:00 AM",Submissions Due,,General,,1
-"April 14, 9:00 AM","April 14, 9:00 AM",Hacking Ends!,,General,,1
-"April 14, 9:00 AM","April 14, 11:00 AM",Brunch,Food Serving Area,Food,,1
-"April 14, 10:00 AM","April 14, 12:30 PM",Judging Begins,Hacker Space,General,,1
-"April 14, 12:30 PM","April 14, 1:10 PM",Closing Ceremony,1st Floor Fashion Theater,General,,1
-"April 14, 1:30 PM","April 14, 11:59 PM",Go Home!,,General,,1
+Title,Text,Time
+HackSC is Today!,Today is the day! We can't wait to see what creativity you unleash this weekend,Fri 12:00 AM
+Team Forming Workshop!," ""Team Matching Workshop begins now in the Fun Workshop Area!""",Fri 6:00 PM
+Water Cooolers," ""We have water coolers in the dinner area. Please bring your water bottles to fill them up.""",Fri 6:47 PM
+Opening Ceremony,Come to the first floor Fashion Theater for the opening ceremony!,Fri 7:15 PM
+Team Matching Ceremony Pt. 2,We are running it back! Come join us for a Team Matching Ceremony at 9PM,Fri 9:00PM
+API Rush is Beginning,Watch the Slack and keep track of wave announcements for API rush,Fri 9:00PM
+Workshops are Starting,Get hyped and head to the Main Workshop Area! Our sponsors will be giving some great tech talks over the course of the next few hours. Check the Slack + schedule for more details,Fri 9:20 PM
+API Rush is Open to All,Waves are over! Go out there and talk to Sponsors :),Fri 10:55 PM
+Soylent Pong? Soylent Pong.,"Come through to the Fun Workshop Area for a chance to compete in a Soylent Pong Tournament! Yes, you heard that right.",Sat 1:00 AM
+Sunrise Yoga!,Need to relax and stretch out your muscles? Roll through to Sunrise Yoga in the Fun Workshop area!,Sat 6:00 AM
