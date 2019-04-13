@@ -2,8 +2,9 @@
   {
     "title": "AWS",
     "logo": "aws.svg",
+    "left": true,
     "companyDescription": "For almost 13 years, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud platform. AWS offers over 165 fully featured services for compute, storage, databases, networking, analytics, robotics, machine learning and artificial intelligence (AI), Internet of Things (IoT), mobile, security, hybrid, virtual and augmented reality (VR and AR), media, and application development, deployment, and management from 60 Availability Zones (AZs) within 20 geographic regions, spanning the U.S., Australia, Brazil, Canada, China, France, Germany, India, Ireland, Japan, Korea, Singapore, Sweden, and the UK. Millions of customers including the fastest-growing startups, largest enterprises, and leading government agencies—trust AWS to power their infrastructure, become more agile, and lower costs. To learn more about AWS, visit aws.amazon.com",
-    "description": "AWS Amplify (https://aws.amazon.com/amplify/) makes it easy to create, configure, and implement scalable mobile and web apps powered by AWS. Amplify seamlessly provisions and manages your mobile backend and provides a simple framework to easily integrate your backend with your iOS, Android, Web, and React Native frontends. You just select the capabilities you need such as authentication, analytics, offline data sync, push notifications, bots, or AR/VR and Amplify will automatically provision and manage the AWS service that powers each of the capabilities. You can then integrate those capabilities into your application through the Amplify libraries and UI components.\nTo get started with AWS Amplify and for a curated list of tools, tutorials, and example projects, check out Awesome AWS Amplify (https://github.com/dabit3/awesome-aws-amplify).\nFor a list of resources to get started with AWS, check out our AWS Hackathon Guide (https://syum.github.io/aws-hackathon-guide/).",
+    "description": "<a href='https://aws.amazon.com/amplify/'>AWS Amplify</a> makes it easy to create, configure, and implement scalable mobile and web apps powered by AWS. Amplify seamlessly provisions and manages your mobile backend and provides a simple framework to easily integrate your backend with your iOS, Android, Web, and React Native frontends. You just select the capabilities you need such as authentication, analytics, offline data sync, push notifications, bots, or AR/VR and Amplify will automatically provision and manage the AWS service that powers each of the capabilities. You can then integrate those capabilities into your application through the Amplify libraries and UI components.<br/><br/>To get started with AWS Amplify and for a curated list of tools, tutorials, and example projects, check out <a href='https://github.com/dabit3/awesome-aws-amplify'>AWS Amplify</a>.<br/><br/>For a list of resources to get started with AWS, check out our <a href='https://syum.github.io/aws-hackathon-guide/'>AWS Hackathon Guide</a>.<br/><br/><b>Prizes for each winning team member:</b><br/><ul><li>1st Place: Echo Spot</li><li>2nd Place: Echo</li><li>3rd Place: Echo Dot</li></ul><br/><br/><b>Bonus!</b> $100 in AWS credits will be given to each participant who builds for the AWS challenge or uses AWS for their project.<br/><br/>",
     "links": [
       {
         "text": "AWS Amplify",
@@ -20,70 +21,13 @@
     ]
   },
   {
-    "title": "OmniSci",
-    "logo": "omnisci.svg",
-    "companyDescription": "OmniSci is the pioneer in GPU-accelerated analytics, redefining speed and scale in big data querying and visualization. The OmniSci platform is used to find insights in data beyond the limits of mainstream analytics tools. Harnessing the massive parallel computing power of GPUs, the platform is available in the cloud and on-premise. OmniSci originated from research at Harvard and MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).",
-    "description": "Here's the starter packet (https://docs.google.com/document/d/1lldH1jbHsR-NZqlIseBA7qOCjLoDOoLA4JI_XS3qJGg/edit?usp=sharing)",
-    "links": [
-      {
-        "text": "Starter Packet",
-        "url": "https://docs.google.com/document/d/1lldH1jbHsR-NZqlIseBA7qOCjLoDOoLA4JI_XS3qJGg/edit"
-      }
-    ]
-  },
-  {
-    "title": "Totle",
-    "logo": "totle.svg",
-    "companyDescription": "Totle powers the dApp economy. The Totle API offers a single source of liquidity powering decentralized payment systems, exchanges, and other open financial apps.",
-    "description": "...",
-    "links": [
-      {
-        "text": "API",
-        "url": "https://www.totle.com/api"
-      },
-      {
-        "text": "Documentation",
-        "url": "https://www.totle.com/docs/home"
-      }
-    ]
-  },
-  {
-    "title": "Polarr",
-    "logo": "polarr.svg",
+    "title": "Facebook",
+    "logo": "facebook.svg",
     "companyDescription": "",
-    "description": "...",
     "links": [
       {
-        "text": "API Directory",
-        "url": "https://www.polarr.co/hacksc"
-      }
-    ]
-  },
-  {
-    "title": "Mux",
-    "logo": "mux.svg",
-    "companyDescription": "",
-    "description": "...",
-    "links": [
-      {
-        "text": "API Documentation",
-        "url": "https://docs.mux.com/docs/video"
-      }
-    ]
-  },
-  {
-    "title": "Smartcar",
-    "logo": "smartcar.png",
-    "companyDescription": "",
-    "description": "...",
-    "links": [
-      {
-        "text": "Smartcar Website",
-        "url": "https://smartcar.com"
-      },
-      {
-        "text": "API Reference",
-        "url": "https://smartcar.com/docs/api#introduction"
+        "text": "Facebook Documentation",
+        "url": "https://developers.facebook.com/docs"
       }
     ]
   },
@@ -91,7 +35,7 @@
     "title": "APICloud",
     "logo": "apicloud.svg",
     "companyDescription": "",
-    "description": "...",
+    "description": "APICloud is a low-code app development platform, aiming to help enterprises achieve agile development and launch their products in a rapid manner. With our cross-platform app dev technologies, developers can use HTML5 to develop native iOS and Android apps. We provide a large number of ready-to-use modules, covering payment, IM, live broadcasting, authentication, navigation and many other functions you may need to develop an app. Instead of integrating the iOS and Android SDK separately, you can invoke APICloud modules with a single codebase.<br/><br/>To get started with APICloud, please sign up here: <a href='https://www.apicloud.com/signup'>https://www.apicloud.com/signup</a><br/><br/>Docs to show you how to use APICloud to develop apps: <a href='https://docs.apicloud.com/'>https://docs.apicloud.com/</a>. It’s in Chinese, but I’m sure you can figure it out :)<br/><br/>",
     "links": [
       {
         "text": "Link",
@@ -108,10 +52,66 @@
     ]
   },
   {
+    "title": "OmniSci",
+    "logo": "omnisci.svg",
+    "left": true,
+    "companyDescription": "OmniSci is the pioneer in GPU-accelerated analytics, redefining speed and scale in big data querying and visualization. The OmniSci platform is used to find insights in data beyond the limits of mainstream analytics tools. Harnessing the massive parallel computing power of GPUs, the platform is available in the cloud and on-premise. OmniSci originated from research at Harvard and MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).",
+    "links": [
+      {
+        "text": "Starter Packet",
+        "url": "https://docs.google.com/document/d/1lldH1jbHsR-NZqlIseBA7qOCjLoDOoLA4JI_XS3qJGg/edit"
+      }
+    ]
+  },
+  {
+    "title": "Totle",
+    "logo": "totle.svg",
+    "left": true,
+    "description": "Totle powers the dApp economy. The Totle API offers a single source of liquidity powering decentralized payment systems, exchanges, and other open financial apps.<br/><br/>",
+    "links": [
+      {
+        "text": "API",
+        "url": "https://www.totle.com/api"
+      },
+      {
+        "text": "Documentation",
+        "url": "https://www.totle.com/docs/home"
+      }
+    ]
+  },
+  {
+    "title": "Polarr",
+    "logo": "polarr.svg",
+    "left": true,
+    "companyDescription": "",
+    "links": [
+      {
+        "text": "API Directory",
+        "url": "https://www.polarr.co/hacksc"
+      }
+    ]
+  },
+  {
+    "title": "Smartcar",
+    "logo": "smartcar.png",
+    "companyDescription": "",
+    "description": "To get started, head to <a href='https://smartcar.com'>smartcar.com</a> to create your account. Our API allows you to interact with cars across brands, entirely hardware free. Check out our API reference <a href='http://smartcar.com/docs/api'>here</a>.<br/><br/>",
+    "links": [
+      {
+        "text": "Smartcar Website",
+        "url": "https://smartcar.com"
+      },
+      {
+        "text": "API Reference",
+        "url": "https://smartcar.com/docs/api#introduction"
+      }
+    ]
+  },
+  {
     "title": "Sketch",
     "logo": "sketch.svg",
     "companyDescription": "",
-    "description": "...",
+    "description": "Sketch is the definitive tool for digital design. It’s used primarily by screen designers who create websites, icons, and user interfaces for desktop and mobile devices. For beginners and industry professionals alike, Sketch’s powerful tools, gentle learning curve and intuitive UI allow designers to focus on what they do best; design.<br/><br/>",
     "links": [
       {
         "text": "Sketch",
@@ -120,22 +120,10 @@
     ]
   },
   {
-    "title": "Facebook",
-    "logo": "facebook.svg",
-    "companyDescription": "",
-    "description": "...",
-    "links": [
-      {
-        "text": "Facebook Documentation",
-        "url": "https://developers.facebook.com/docs"
-      }
-    ]
-  },
-  {
     "title": "Blockstack",
     "logo": "blockstack.svg",
+    "left": true,
     "companyDescription": "",
-    "description": "...",
     "links": [
       {
         "text": "Documentation",
@@ -144,6 +132,17 @@
       {
         "text": "HackSC Link",
         "url": "https://community.blockstack.org/hacksc"
+      }
+    ]
+  },
+  {
+    "title": "Mux",
+    "logo": "mux.svg",
+    "companyDescription": "",
+    "links": [
+      {
+        "text": "API Documentation",
+        "url": "https://docs.mux.com/docs/video"
       }
     ]
   }
