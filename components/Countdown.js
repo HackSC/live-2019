@@ -7,7 +7,7 @@ const CountdownDisplay = (props) => {
     <div className="countdown">
       <div className="columns is-vcentered">
         <div className="column is-hidden-mobile">
-          <span>HACKING Now: <b>HackSC 2019!</b></span>
+          <span>Happening Now: <b>HackSC 2019!</b></span>
         </div>
 
         <div className="column countdown-counter">
