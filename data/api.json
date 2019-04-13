@@ -139,7 +139,7 @@
     "logo": "mux.svg",
     "left": true,
     "companyDescription": "",
-    "description": "Mux is video infrastructure built by the experts. Take any video file or live stream and make it play beautifully at scale on any device, powered by magical-feeling features like automatic thumbnails, animated gifs, and data-driven encoding decisions. Spend your time building what people want, not drudging through ffmpeg documentation.<br/><br/>If you're interested in trying out Mux for your hack, shoot matt@mux.com an email (or find him in Slack or at the Mux table) and we'll make sure you've got more than enough free credit to get through the weekend. Learn more at <a href='https://mux.com'>Mux.com</a> or our <a href='https://docs.mux.com'>documentation</a>.<br/><br/>",
+    "description": "Mux is video infrastructure built by the experts. Take any video file or live stream and make it play beautifully at scale on any device, powered by magical-feeling features like automatic thumbnails, animated gifs, and data-driven encoding decisions. Spend your time building what people want, not drudging through ffmpeg documentation.<br/><br/>If you're interested in trying out Mux for your hack, shoot matt@mux.com an email (or find him in Slack or at the Mux table) and we'll make sure you've got more than enough free credit to get through the weekend. Learn more at <a href='https://mux.com'>Mux.com</a> or our <a href='https://docs.mux.com'>documentation</a>.<br/><br/>Best use of Mux API will win a $100 gift card!<br/><br/>",
     "links": [
       {
         "text": "API Documentation",
