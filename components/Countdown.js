@@ -6,12 +6,10 @@ const CountdownDisplay = (props) => {
   return (
     <div className="countdown">
       <div className="columns is-vcentered">
-        <div className="column is-hidden-mobile">
-          <span>Coming Soon: <b>HackSC 2019 Judging</b></span>
-        </div>
-
-        <div className="column countdown-counter">
-          <span>Countdown: <b className="time">HACKING OVER.</b></span>
+        <div className="column table-assignments">
+          <a href="https://docs.google.com/spreadsheets/d/1lqJb_FFBLSnTOIJs5NUshV4VG40z_rTDb_y6rKjnH9U/edit">
+            JUDGING TABLE ASSIGNMENTS
+          </a>
         </div>
       </div>
     </div>
