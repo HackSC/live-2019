@@ -104,10 +104,12 @@
   },
   {
     "title": "Best Beginner Hack",
-    "description": "If it's your first time at a Hackathon, this prize is for you! We're looking for the best effort from a hacker newbie who made the most out of HackSC. Welcome to the hacker community!"
+    "vertical": true,
+    "description": "If it's your first time at a Hackathon, this prize is for you! We're looking for the best effort from a hacker newbie who made the most out of HackSC. Welcome to the hacker community! Each member will get a $25 Amazon gift card and a HackSC hat"
   },
   {
     "title": "Best Design",
+    "vertical": true,
     "description": "This is for all the nit-pickers, illustrator pros, or just anyone who appreciates clean, beautiful design. Whether you're focused on simplicity, responsiveness, communicability, style, we'd love to see how your project is designed the way it is!"
   },
   {
