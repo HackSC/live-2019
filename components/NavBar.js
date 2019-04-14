@@ -67,14 +67,13 @@ const NavBar = (props) => (
             </Link>
           </div>
 
-          {/*
           <div className="navbar-item">
             <Link href="/judges">
               <a className={(props.page === 'judges') ? 'is-active' : undefined}>
                 Judges
               </a>
             </Link>
-          </div>*/}
+          </div>
 
           <div className="navbar-item">
             <Link href="/map">
