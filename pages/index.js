@@ -32,6 +32,13 @@ const Index = () => (
 
               <div className="links">
                 <LinkItem
+                  title="Opening Slides"
+                  description="Missed our opening ceremony? Here's our slides!"
+                  href="https://drive.google.com/open?id=1iYKQq7XhacPP-NA_O6JFSM_sB_KelpNhEYVQnZ4frGk"
+                  img="/static/links/hacksc.png"
+                />
+
+                <LinkItem
                   title="Slack"
                   description="Join our Slack channel to stay up to date"
                   href="https://join.slack.com/t/hacksc-2019/shared_invite/enQtNTk1ODA2MjkxOTc1LTIyZmE5NDdiMGNlNjJjNTNkNThkNTQxMWMwNjI0MmEyNTQ3NjY3ZjJiNDJhYWIyODdlY2ZkZDY5OWNiMjYwOTU"
