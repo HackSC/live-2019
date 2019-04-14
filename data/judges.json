@@ -11,7 +11,7 @@
     "vertical": "Entrepeneurship",
     "name": "Stu Harvey",
     "title": "Co-Founder & CEO, Foreknow",
-    "link": "www.foreknow.com",
+    "link": "https://www.foreknow.com",
     "headshot": "Stu_Harvey.png",
     "email": "stu@foreknow.com"
   },
@@ -19,7 +19,7 @@
     "vertical": "Entrepeneurship",
     "name": "Travis Holoway",
     "title": "Co-Founder & CEO, SoLo Funds",
-    "link": "solofunds.com",
+    "link": "https://solofunds.com",
     "headshot": "Travis_Holoway.jpg",
     "email": "travis@solofunds.com"
   },
@@ -27,7 +27,7 @@
     "vertical": "Entrepeneurship",
     "name": "David Anderson",
     "title": "Cofounder & Chief Digital Officer, Gains Group",
-    "link": "www.gainsgroup.com",
+    "link": "https://www.gainsgroup.com",
     "headshot": "David_Anderson.jpeg",
     "email": "dave@gainsgroup.com"
   },
@@ -35,7 +35,7 @@
     "vertical": "Entrepeneurship",
     "name": "Stephen Partridge",
     "title": "Co-Founder & President, Events.com",
-    "link": "events.com",
+    "link": "https://events.com",
     "headshot": "Stephen_Partridge.jpg",
     "email": "spartridge@events.com"
   },
@@ -43,7 +43,7 @@
     "vertical": "Entrepeneurship",
     "name": "Andrew Farah",
     "title": "CEO, Density",
-    "link": "density.io",
+    "link": "https://density.io",
     "headshot": "Andrew_Farah.jpg",
     "email": "andrew@density.io"
   },
@@ -59,7 +59,7 @@
     "vertical": "Entrepeneurship",
     "name": "Alek Tan",
     "title": "CEO & Co-Founder, InnoDT",
-    "link": "innodt.com",
+    "link": "https://innodt.com",
     "headshot": "Alek_Tan.jpeg",
     "email": "alek.tan@innodt.com"
   },
@@ -99,7 +99,7 @@
     "vertical": "Entertainment",
     "name": "Armando Kirwin",
     "title": "Co-founder, Artie",
-    "link": "www.artie.com",
+    "link": "https://www.artie.com",
     "headshot": "default.jpg",
     "email": "armando@artie.com"
   },
@@ -123,7 +123,7 @@
     "vertical": "Entertainment",
     "name": "JonLuca De Caro",
     "title": "Software Engineer",
-    "link": "jonlu.ca",
+    "link": "https://jonlu.ca",
     "headshot": "The_Embodiment_of_Man_Love.JPG",
     "email": "jdecaro@usc.edu"
   },
@@ -139,7 +139,7 @@
     "vertical": "Entertainment",
     "name": "Jason Goldberg",
     "title": "Co-founder & President, VYRL",
-    "link": "Www.getcarro.com",
+    "link": "https://Www.getcarro.com",
     "headshot": "Jason_Goldberg.jpeg",
     "email": "jason@vyrl.co"
   },
@@ -147,7 +147,7 @@
     "vertical": "Transportation",
     "name": "Paul Francis",
     "title": "CEO, KIGT",
-    "link": "www.KIGTinc.com",
+    "link": "https://www.KIGTinc.com",
     "headshot": "Paul_Francis.jpeg",
     "email": "paul@kigt.co"
   },
@@ -163,7 +163,7 @@
     "vertical": "Transportation",
     "name": "Bryce Prior",
     "title": "Operations & Strategy, Leo Aerospace",
-    "link": "leoaerospace.com",
+    "link": "https://leoaerospace.com",
     "headshot": "Bryce_Prior.jpg",
     "email": "abishek@leoaerospace.com"
   },
@@ -179,7 +179,7 @@
     "vertical": "Transportation",
     "name": "Abishek Murali",
     "title": "Systems & Regulations, Leo Aerospace",
-    "link": "leoaerospace.com",
+    "link": "https://leoaerospace.com",
     "headshot": "Abishek_Murali.png",
     "email": "abishek@leoaerospace.com"
   },
@@ -195,7 +195,7 @@
     "vertical": "Transportation",
     "name": "Cara Lunsford, RN",
     "title": "Founder & CEO, HolliBlu LLC",
-    "link": "www.holliblu.com",
+    "link": "https://www.holliblu.com",
     "headshot": "Cara_Lunsford.png",
     "email": "clunsford@holliblu.com"
   },
@@ -227,7 +227,7 @@
     "vertical": "",
     "name": "Gitesh Patel",
     "title": "CEO, Sargas Pharmaceutical Adherence & Compliance (S.P.A.C) International.",
-    "link": "www.spacinternational.com",
+    "link": "https://www.spacinternational.com",
     "headshot": "gitesh-patel.jpg",
     "email": "gpatel@spacinternational.com"
   },
