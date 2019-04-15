@@ -4,15 +4,6 @@ const ScheduleEvent = (props) => {
   let scheduleEventClass = "schedule-event columns is-vcentered"
 
   const now = moment()
-
-  if (now >= props.endTime) {
-    scheduleEventClass += " schedule-event-faded";
-  }
-
-  if ((props.startTime <= now) && (now <= props.endTime)) {
-    scheduleEventClass += " schedule-event-now";
-  }
-
   const labelClass = `schedule-event-label schedule-event-label-${props.label}`
   const label = props.label.charAt(0).toUpperCase() + props.label.slice(1)
 

@@ -6,10 +6,14 @@ const CountdownDisplay = (props) => {
   return (
     <div className="countdown">
       <div className="columns is-vcentered">
-        <div className="column table-assignments">
-          <a href="https://docs.google.com/spreadsheets/d/1lqJb_FFBLSnTOIJs5NUshV4VG40z_rTDb_y6rKjnH9U/edit">
-            JUDGING TABLE ASSIGNMENTS
+        <div className="column table-assignments has-text-centered">
+          <a href="https://hacksc2019.devpost.com/">
+            HACKSC 2019 DEVPOST
           </a>
+
+          <br/>
+
+          HackSC 2019 has concluded! Thank you for attending and making this event a great one. Be on the lookout for updates for HackSC 2020 👀
         </div>
       </div>
     </div>
